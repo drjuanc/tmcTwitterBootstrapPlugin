@@ -14,23 +14,15 @@ Features
 Installation
 -----------
 
-Clone this project into plugins folder of your symfony project and enable it in the config/ProjectConfiguration.class.php file.
-	
-Copy the tmcTwitterBootstrap to the module of your backend application. From  plugins/tmcTwitterBootstrapPlugin/modules/tmcTwitterBootstrap to apps/backend/modules/tmcTwitterBootstrap
-
-
-Also you can copy the files inside this folder "plugins/tmcTwitterBootstrapPlugin/modules/tmcTwitterBootstrap/templates" to your module folder to customize your  module. You can customize staticSuccess.php, _assets.php, _footer.php, _header.php files and any other partial.
-
-
-Copy the sfGuardAuth to the modules of your backend application if you want to replace the sfDoctrineGuardPlugin default theme.
-
-
-Generate a new administration module with the option `--theme=tmcTwitterBootstrap`
+* Clone this project into plugins folder of your symfony project and enable it in the config/ProjectConfiguration.class.php file.
+* Copy the tmcTwitterBootstrap to the module of your backend application. From  plugins/tmcTwitterBootstrapPlugin/modules/tmcTwitterBootstrap to apps/backend/modules/tmcTwitterBootstrap
+*Also you can copy the files inside this folder "plugins/tmcTwitterBootstrapPlugin/modules/tmcTwitterBootstrap/templates" to your module folder to customize your  module. You can customize staticSuccess.php, _assets.php, _footer.php, _header.php files and any other partial.
+* Copy the sfGuardAuth to the modules of your backend application if you want to replace the sfDoctrineGuardPlugin default theme.
+* Generate a new administration module with the option `--theme=tmcTwitterBootstrap`.
     php symfony generate:app backend
-	php symfony doctrine:generate-admin backend className --module=yourModuleName --theme=tmcTwitterBootstrap
-	
-Copy all images, css and js files in the plugins/tmcTwitterBootstrapPlugin/web folder to web/tmcTwitterBootstrapPlugin. You can use the publish-assets task
-    php symfony plugin:publish-assets
+    php symfony doctrine:generate-admin backend className --module=yourModuleName --theme=tmcTwitterBootstrap	
+* Copy all images, css and js files in the plugins/tmcTwitterBootstrapPlugin/web folder to web/tmcTwitterBootstrapPlugin. You can use the publish-assets task
+     php symfony plugin:publish-assets
 	
 
 Configuration
