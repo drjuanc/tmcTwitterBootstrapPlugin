@@ -1,6 +1,6 @@
 tmcTwitterBootstrapPlugin
 =========================
-
+NOTE: Problems actualizing the repo from my country (Cuba), the customizations assets doesn´t work in the repo and I can change the files for now. Contact me at dr.juanc@gmail.com 
 This is a twitter bootstrap theme for the symfony 1.4 admin generator.
 
 Features
